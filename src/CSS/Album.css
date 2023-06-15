@@ -1,0 +1,67 @@
+.albums-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  button:hover,
+  button:focus {
+    background-color: #2980b9;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .load-more-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .load-more-button:hover,
+  .load-more-button:focus {
+    background-color: #2980b9;
+  }
+  

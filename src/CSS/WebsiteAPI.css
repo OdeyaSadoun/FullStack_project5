@@ -1,0 +1,277 @@
+/* Style for the button sector */
+.button-sector {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+/* Style for the content sector */
+.content-sector {
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/* Style for the username header */
+.username-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the exit button */
+.exit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Style for the button element */
+button,
+select {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the first button */
+.button1 {
+  background-color: #1abc9c;
+}
+
+/* Style for the second button */
+.button2 {
+  background-color: #9b59b6;
+}
+
+/* Style for the third button */
+.button3 {
+  background-color: #f1c40f;
+}
+
+/* Style for the post container */
+.post-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+/* Style for the post header */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style for the post username */
+.post-username {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Style for the post timestamp */
+.post-timestamp {
+  font-size: 12px;
+  color: #999;
+}
+
+/* Style for the post image */
+.post-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Style for the post content */
+.post-content {
+  display: none;
+  margin-bottom: 10px;
+}
+
+/* Style for the post footer */
+.post-footer {
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Style for the to-do list container */
+.todo-container {
+  margin-top: 20px;
+}
+
+/* Style for the to-do list header */
+.todo-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the to-do list item */
+.todo-item {
+  margin-bottom: 10px;
+}
+
+/* Style for the completed to-do list item */
+.todo-item.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Style for the comment list */
+.comment-list {
+  display: none;
+}
+
+/* Style for the comment section */
+.comment-section {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+/* Style for the comment form */
+.comment-form {
+  margin-bottom: 10px;
+}
+
+/* Style for the comment input */
+.comment-input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for each comment item */
+.comment-item {
+  margin-bottom: 10px;
+}
+
+/* Style for the comment author */
+.comment-author {
+  font-weight: bold;
+}
+
+/* Style for the comment content */
+.comment-content {
+  margin-top: 5px;
+}
+
+/* Style for the header title */
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Style for the task container */
+#task-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+/* Style for the task */
+.task {
+  background-color: #90EE90;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 2px 2px 5px #ccc;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/* Style for the task checkbox */
+.task-checkbox {
+  margin-right: 10px;
+}
+
+/* Style for the task name and time */
+.task-name,
+.task-time {
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 40%;
+}
+
+/* Style for disabled task name and time */
+.task-name:disabled,
+.task-time:disabled {
+  background-color: #eee;
+}
+
+/* Style for input elements */
+input {
+  text-align: center;
+}
+
+/* Style for disabled input elements */
+input:disabled {
+  color: black;
+}
+
+/* Style for the update button */
+.update-button,
+.delete-button,
+.save-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Style for the update button icon */
+.update-button:before {
+  content: "\1F58A";
+  font-size: 20px;
+}
+
+/* Style for the delete button icon */
+.delete-button:before {
+  content: "\1F5D1";
+  font-size: 20px;
+  color: black;
+}
+
+/* Style for the save button icon */
+.save-button:before {
+  content: "\1F4BE";
+  font-size: 20px;
+}
+
+/* Hover and active styles for buttons */
+.button:hover,
+.button:focus {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
